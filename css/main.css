@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+body { 
+	font-size: 16px; 
+	background-color: #E0B0C6;
+}
+
+.hidden { 
+	display: none; 
+}
+
+.main-headline{
+	text-align:center;
+	margin:20px 0 30px;
+	font-size:2.5rem;
+}
+
+h1{
+  text-align:center;
+  letter-spacing:2px;
+  font-size:27px;
+  margin-top:30px;
+  margin-bottom:30px;
+  padding-bottom:15px;
+  border-bottom:solid thin;
+}
+
+p{
+  text-align:center;
+  font-size:12px;
+  line-height:18px;
+  letter-spacing:1px;
+  width:580px;
+  margin:auto;
+}
+
+#kato{
+  margin:auto;
+  text-align:center;
+}
+
+#logo{
+  margin-top:30px;
+}
+
+#pic, #pic2, #pic3{
+  width:680px;
+  display:flex;
+  flex-direction:row;
+  text-align:center;
+  justify-content:space-evenly;
+}
+
+
